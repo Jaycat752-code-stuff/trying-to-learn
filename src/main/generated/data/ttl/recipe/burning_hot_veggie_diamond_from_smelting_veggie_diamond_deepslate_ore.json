@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.55,
+  "group": "burning_hot_veggie_diamond",
+  "ingredient": {
+    "item": "ttl:veggie_diamond_deepslate_ore"
+  },
+  "result": {
+    "id": "ttl:burning_hot_veggie_diamond"
+  }
+}

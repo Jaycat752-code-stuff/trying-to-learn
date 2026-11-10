@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ttl:counter_top_block"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "ttl:veggie_diamond"
+  }
+}

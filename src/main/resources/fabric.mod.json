@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "ttl",
+	"version": "${version}",
+	"name": "Trying to Learn",
+	"description": "I'm just trying to learn!",
+	"authors": [
+		"Jaycat752!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ttl/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jaycat.ttl.TryingToLearn"
+		],
+		"fabric-datagen": [
+			"net.jaycat.ttl.TryingToLearnDataGenerator"
+		],
+		"client":[
+			"net.jaycat.ttl.TryingToLearnClient"
+		]
+	},
+	"mixins": [
+		"ttl.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

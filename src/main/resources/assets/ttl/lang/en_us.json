@@ -1,0 +1,45 @@
+{
+  "item.ttl.bob_the_tomato": "Bob the Tomato",
+  "item.ttl.larry_the_cucumber":"Larry the Cucumber",
+"item.ttl.veggie_diamond":"Veggie Diamond",
+"item.ttl.veggie_diamond_ore":"Veggie Diamond Ore",
+  "item.ttl.veggie_diamond_deepslate_ore": "Veggie Diamond Deepslate Ore",
+  "item.ttl.sheriff_star": "Bob's Sheriff's Star",
+  "item.ttl.joppa_java": "Joppa Java",
+  "item.ttl.coffee_beans": "Coffee Beans",
+  "item.ttl.hairbrush": "Larry's Hairbrush",
+  "item.ttl.coffee_maker_block": "Coffee Maker Block",
+  "item.ttl.pizza_slice": "Pizza Slice",
+  "item.ttl.burning_hot_veggie_diamond": "Burning Hot Veggie Diamond",
+
+  "tooltip.ttl.coffee_maker_block.tooltip": "Brew your own §6COFFEE§r with this block!",
+
+  "tooltip.ttl.hairbrush.shift_down": "Larry's Hairbrush will make any hostile mob",
+  "tooltip.ttl.hairbrush.shift_down1": "despawn on right_click! When it breaks, you'll",
+  "tooltip.ttl.hairbrush.shift_down2": "wonder where your hairbrush is!",
+  "tooltip.ttl.hairbrush": "Hold §lShift§r for summary.",
+
+
+  "tooltip.ttl.pizza_slice.tooltip": "It's Pizza! It's delicious.",
+  "tooltip.ttl.pizza_slice.tooltip1": "What else is there to say?",
+
+  "block.ttl.counter_top_block": "Countertop Block",
+  "block.ttl.wall_block": "Wall Block",
+  "block.ttl.veggie_diamond_ore": "Veggie Diamond Ore",
+  "block.ttl.veggie_diamond_deepslate_ore": "Veggie Diamond Deepslate Ore",
+  "block.ttl.veggie_diamond_block": "Veggie Diamond Block",
+  "block.ttl.coffee_maker_block": "Coffee Maker Block",
+  "block.ttl.empty_coffee_maker_block": "Empty Coffee Maker Block",
+
+  "itemgroup.ttl.veggietales_adventures_items": "VeggieTales Adventures Items",
+  "itemgroup.ttl.veggietales_adventures_blocks": "VeggieTales Adventures Blocks",
+
+  "advancement.ttl.root.title": "VeggieTales Adventures",
+  "advancement.ttl.root.description": "Welcome to VeggieTales Adventures! There is more to discover!",
+  "advancement.ttl.veggie_diamond.title": "Gotta Be.....Veggie Diamonds!",
+  "advancement.ttl.veggie_diamond.description": "Obtain a Veggie Diamond.",
+  "advancement.ttl.hairbrush.title": "Ohhhh Where is My Hairbrush?!",
+  "advancement.ttl.hairbrush.description": "Obtain Larry's Hairbrush.",
+  "advancement.ttl.burning_hot_veggie_diamond.title": "Why Not Cook Your Veggies?",
+  "advancement.ttl.burning_hot_veggie_diamond.description": "Smelt a Veggie Diamond."
+}

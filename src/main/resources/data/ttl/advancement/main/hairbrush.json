@@ -1,0 +1,33 @@
+{
+  "parent": "ttl:main/root",
+  "display": {
+    "icon": {
+      "id": "ttl:hairbrush"
+    },
+    "title": {
+      "translate": "advancement.ttl.hairbrush.title"
+    },
+    "description": {
+      "translate": "advancement.ttl.hairbrush.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 9999
+  },
+  "criteria": {
+    "has_hairbrush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ttl:hairbrush"
+          }
+        ]
+      }
+    }
+  }
+}

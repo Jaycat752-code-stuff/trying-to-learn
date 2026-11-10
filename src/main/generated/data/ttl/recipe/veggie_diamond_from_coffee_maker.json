@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ttl:coffee_maker_block"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ttl:veggie_diamond"
+  }
+}

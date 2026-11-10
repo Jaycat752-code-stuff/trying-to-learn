@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ttl:block/wall_block"
+    }
+  }
+}

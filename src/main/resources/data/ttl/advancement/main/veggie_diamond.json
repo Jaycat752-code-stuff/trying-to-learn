@@ -1,0 +1,33 @@
+{
+  "parent": "ttl:main/root",
+  "display": {
+    "icon": {
+      "id": "ttl:veggie_diamond"
+    },
+    "title": {
+      "translate": "advancement.ttl.veggie_diamond.title"
+    },
+    "description": {
+      "translate": "advancement.ttl.veggie_diamond.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "criteria": {
+    "has_veggie_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ttl:veggie_diamond"
+          }
+        ]
+      }
+    }
+  }
+}

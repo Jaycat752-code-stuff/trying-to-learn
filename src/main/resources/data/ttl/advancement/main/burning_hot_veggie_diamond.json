@@ -1,0 +1,33 @@
+{
+  "parent": "ttl:main/veggie_diamond",
+  "display": {
+    "icon": {
+      "id": "ttl:burning_hot_veggie_diamond"
+    },
+    "title": {
+      "translate": "advancement.ttl.burning_hot_veggie_diamond.title"
+    },
+    "description": {
+      "translate": "advancement.ttl.burning_hot_veggie_diamond.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "criteria": {
+    "has_veggie_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ttl:burning_hot_veggie_diamond"
+          }
+        ]
+      }
+    }
+  }
+}

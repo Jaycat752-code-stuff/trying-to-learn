@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "V": {
+      "item": "ttl:veggie_diamond"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SVS",
+    "SSS"
+  ],
+  "result": {
+    "count": 16,
+    "id": "ttl:wall_block"
+  }
+}

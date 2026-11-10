@@ -1,0 +1,14 @@
+{
+  "values": [
+    "ttl:veggie_diamond_block",
+    "ttl:veggie_diamond_ore",
+    "ttl:veggie_diamond_deepslate_ore",
+    "ttl:coffee_maker_block",
+    "ttl:coffee_maker_block1",
+    "ttl:coffee_maker_block2",
+    "ttl:coffee_maker_block3",
+    "ttl:empty_coffee_maker_block",
+    "ttl:counter_top_block",
+    "ttl:wall_block"
+  ]
+}

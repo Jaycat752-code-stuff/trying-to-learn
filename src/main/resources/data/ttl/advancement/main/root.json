@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "ttl:bob_the_tomato"
+    },
+    "title": {
+      "translate": "advancement.ttl.root.title"
+    },
+    "description": {
+      "translate": "advancement.ttl.root.description"
+    },
+    "background": "ttl:textures/block/counter_top_block.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "auto_unlock": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

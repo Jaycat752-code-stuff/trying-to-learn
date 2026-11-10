@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ttl:block/coffee_maker_block"
+    }
+  }
+}

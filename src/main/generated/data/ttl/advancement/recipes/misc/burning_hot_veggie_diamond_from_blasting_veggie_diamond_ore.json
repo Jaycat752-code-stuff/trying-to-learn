@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ttl:burning_hot_veggie_diamond_from_blasting_veggie_diamond_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_veggie_diamond_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ttl:veggie_diamond_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_veggie_diamond_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ttl:burning_hot_veggie_diamond_from_blasting_veggie_diamond_ore"
+    ]
+  }
+}
