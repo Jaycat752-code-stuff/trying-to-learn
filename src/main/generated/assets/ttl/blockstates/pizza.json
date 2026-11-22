@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "bites=0": { "model": "ttl:block/pizza" },
+    "bites=1": { "model": "ttl:block/pizza1" },
+    "bites=2": { "model": "ttl:block/pizza2" },
+    "bites=3": { "model": "ttl:block/pizza3" },
+    "bites=4": { "model": "ttl:block/pizza4" },
+    "bites=5": { "model": "ttl:block/pizza5" },
+    "bites=6": { "model": "ttl:block/pizza6" }
+  }
+}

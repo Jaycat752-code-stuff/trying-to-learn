@@ -1,9 +1,11 @@
 // Adding Special Item to Minecraft
 package net.jaycat.ttl.item.custom;
 
+import net.jaycat.ttl.component.ModDataComponentTypes;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.gui.screen.Screen;
+import net.minecraft.component.DataComponentTypes;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
@@ -47,6 +49,11 @@ World world = user.getWorld();
 
                 world.playSound(null, entity.getBlockPos(), SoundEvents.ENTITY_PLAYER_LEVELUP, SoundCategory.BLOCKS);
 
+                stack.set(ModDataComponentTypes.COORDINATES, entity.getBlockPos());
+            //    stack.set(DataComponentTypes.<EXAMPLE>, entity.getBlockPos) This may help!
+
+            //    stack.set(ModDataComponentTypes.COORDINATES, null); this may too!
+
                 entity.discard();
 
                 stack.damage(1, serverWorld, (ServerPlayerEntity) user,
@@ -72,6 +79,9 @@ World world = user.getWorld();
         }else {
             tooltip.add(Text.translatable("tooltip.ttl.hairbrush"));
 
+        }
+if(stack.get(ModDataComponentTypes.COORDINATES) != null){
+    tooltip.add(Text.literal("Latest Brushed Mob was at: " + stack.get(ModDataComponentTypes.COORDINATES)));
         }
 
         super.appendTooltip(stack, context, tooltip, type);

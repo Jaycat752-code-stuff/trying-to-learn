@@ -9,6 +9,7 @@ import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.ShapedRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
@@ -24,11 +25,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter exporter) {
-    List<ItemConvertible> BURNING_HOT_VEGGIE_DIAMONDS_SMELTABLES = List.of(ModItems.VEGGIE_DIAMOND, ModBlocks.VEGGIE_DIAMOND_ORE,
-            ModBlocks.VEGGIE_DIAMOND_DEEPSLATE_ORE);
+        List<ItemConvertible> BURNING_HOT_VEGGIE_DIAMONDS_SMELTABLES = List.of(ModItems.VEGGIE_DIAMOND, ModBlocks.VEGGIE_DIAMOND_ORE,
+                ModBlocks.VEGGIE_DIAMOND_DEEPSLATE_ORE);
 
-    offerSmelting(exporter, BURNING_HOT_VEGGIE_DIAMONDS_SMELTABLES, RecipeCategory.MISC, ModItems.BURNING_HOT_VEGGIE_DIAMOND , 0.55f, 300, "burning_hot_veggie_diamond");
-        offerBlasting(exporter, BURNING_HOT_VEGGIE_DIAMONDS_SMELTABLES, RecipeCategory.MISC, ModItems.BURNING_HOT_VEGGIE_DIAMOND , 0.55f, 150, "burning_hot_veggie_diamond");
+        offerSmelting(exporter, BURNING_HOT_VEGGIE_DIAMONDS_SMELTABLES, RecipeCategory.MISC, ModItems.BURNING_HOT_VEGGIE_DIAMOND, 0.55f, 300, "burning_hot_veggie_diamond");
+        offerBlasting(exporter, BURNING_HOT_VEGGIE_DIAMONDS_SMELTABLES, RecipeCategory.MISC, ModItems.BURNING_HOT_VEGGIE_DIAMOND, 0.55f, 150, "burning_hot_veggie_diamond");
 
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.VEGGIE_DIAMOND, RecipeCategory.DECORATIONS, ModBlocks.VEGGIE_DIAMOND_BLOCK);
@@ -47,9 +48,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.VEGGIE_DIAMOND, 8)
                 .input(ModBlocks.Counter_Top_Block)
                 .criterion(hasItem(ModBlocks.Counter_Top_Block), conditionsFromItem(ModBlocks.Counter_Top_Block))
-                .offerTo(exporter, Identifier.of("tll","veggie_diamond_from_counter_top_block"));
-
-
+                .offerTo(exporter, Identifier.of("tll", "veggie_diamond_from_counter_top_block"));
 
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.Wall_Block, 16)
@@ -66,6 +65,44 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModBlocks.COFFEE_MAKER_BLOCK)
                 .criterion(hasItem(ModBlocks.COFFEE_MAKER_BLOCK), conditionsFromItem(ModBlocks.COFFEE_MAKER_BLOCK))
                 .offerTo(exporter, Identifier.of("ttl", "veggie_diamond_from_coffee_maker"));
+
+createDoorRecipe(ModBlocks.Veggie_DIAMOND_DOOR, Ingredient.ofItems(ModItems.VEGGIE_DIAMOND))
+        .criterion(hasItem(ModItems.VEGGIE_DIAMOND), conditionsFromItem(ModItems.VEGGIE_DIAMOND))
+        .offerTo(exporter);
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.Veggie_DIAMOND_SLAB, 6)
+
+                .pattern("VVV")
+                .input('V', ModBlocks.VEGGIE_DIAMOND_BLOCK)
+                .criterion(hasItem(ModBlocks.VEGGIE_DIAMOND_BLOCK), conditionsFromItem(ModBlocks.VEGGIE_DIAMOND_BLOCK))   // Unlocks recipe for counter_top_block if you have a veggie_diamond
+                .offerTo(exporter);
+
+
+
+
+
+
+
+        createTrapdoorRecipe(ModBlocks.Veggie_DIAMOND_TRAPDOOR, Ingredient.ofItems(ModItems.VEGGIE_DIAMOND))
+                .criterion(hasItem(ModItems.VEGGIE_DIAMOND), conditionsFromItem(ModItems.VEGGIE_DIAMOND))
+                .offerTo(exporter);
+
+
+
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.Veggie_DIAMOND_BUTTON, 1)
+                .input(ModItems.VEGGIE_DIAMOND)
+                .criterion(hasItem(ModItems.VEGGIE_DIAMOND), conditionsFromItem(ModItems.VEGGIE_DIAMOND))
+                .offerTo(exporter);
+
+
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.VEGGIE_DIAMOND, 9)
+                .input(ModBlocks.VEGGIE_DIAMOND_BLOCK)
+                .criterion(hasItem(ModBlocks.VEGGIE_DIAMOND_BLOCK), conditionsFromItem(ModItems.VEGGIE_DIAMOND))
+                .offerTo(exporter, Identifier.of("tll", "veggie_diamond_from_veggie_diamond_block"));
+
 
     }
 }

@@ -30,5 +30,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.VEGGIE_DIAMOND_ORE)
                 .add(ModBlocks.VEGGIE_DIAMOND_DEEPSLATE_ORE);
+
+
+        getOrCreateTagBuilder(BlockTags.FENCES).add(ModBlocks.Veggie_DIAMOND_FENCE);// you can also choose what type of fence it connects to
+
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.Veggie_DIAMOND_FENCE_GATE);
+
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.Veggie_DIAMOND_WALL);
     }
 }

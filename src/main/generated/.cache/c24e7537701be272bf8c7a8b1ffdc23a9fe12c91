@@ -1,3 +1,6 @@
-// 1.21.1	2026-11-07T23:18:01.290306411	Trying to Learn/Tags for minecraft:block
-6f295cef856a63aa6ab79706313f36ef7db4feb9 data/minecraft/tags/block/mineable/pickaxe.json
-84219f1ec0fc9338b2e5895ac86f24c6e245ca08 data/minecraft/tags/block/needs_diamond_tool.json
+// 1.21.1	2026-11-21T18:46:05.08429	Trying to Learn/Tags for minecraft:block
+6e33dd8b1a890da5b49da172891bd9acb2a58542 data\minecraft\tags\block\fence_gates.json
+6f295cef856a63aa6ab79706313f36ef7db4feb9 data\minecraft\tags\block\mineable\pickaxe.json
+d993d8bfa3ea54dcca3d7e68c2b1158d7efec126 data\minecraft\tags\block\fences.json
+1cb2b7ef22ee179223d83be864c602bb8d183b64 data\minecraft\tags\block\walls.json
+84219f1ec0fc9338b2e5895ac86f24c6e245ca08 data\minecraft\tags\block\needs_diamond_tool.json

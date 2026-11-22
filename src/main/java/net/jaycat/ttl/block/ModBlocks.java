@@ -47,15 +47,15 @@ public static final Block VEGGIE_DIAMOND_BLOCK = registerBlock("veggie_diamond_b
                     AbstractBlock.Settings.create().strength(5.5f).requiresTool().sounds(BlockSoundGroup.METAL)));
 
     public static final Block Veggie_DIAMOND_SLAB = registerBlock("veggie_diamond_slab",
-            new StairsBlock(ModBlocks.VEGGIE_DIAMOND_BLOCK.getDefaultState(),
-                    AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.METAL)));
+            new SlabBlock(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.METAL)));
+
 
 
 
     public static final Block Veggie_DIAMOND_BUTTON = registerBlock("veggie_diamond_button",
-           new ButtonBlock(BlockSetType.IRON, 40, AbstractBlock.Settings.create().strength(3f).requiresTool().noCollision()));
+           new ButtonBlock(BlockSetType.IRON, 80, AbstractBlock.Settings.create().strength(3f).requiresTool().noCollision()));
 
-    public static final Block Veggie_DIAMOND_PESURE_PLATE = registerBlock("veggie_diamond_presure_plate",
+    public static final Block Veggie_DIAMOND_PRESSURE_PLATE = registerBlock("veggie_diamond_pressure_plate",
             new PressurePlateBlock(BlockSetType.GOLD, AbstractBlock.Settings.create().strength(3f).requiresTool()));
 
 
@@ -78,10 +78,13 @@ public static final Block VEGGIE_DIAMOND_BLOCK = registerBlock("veggie_diamond_b
     public static final Block Veggie_DIAMOND_TRAPDOOR = registerBlock("veggie_diamond_trapdoor",
             new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(4.5f).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
 
+public static final Block PIZZA = registerBlock("pizza",
+        new PizzaBlock(AbstractBlock.Settings.create().strength(1.5f).sounds(BlockSoundGroup.WOOL)));
 
 
 
-
+public static final Block VEGGIE_DIAMOND_LAMP = registerBlock("veggie_diamond_lamp",
+        new VeggieDiamondLamp(AbstractBlock.Settings.create().requiresTool().strength(2).luminance(state -> state.get(VeggieDiamondLamp.CLICKED)? 12: 0)));
 
 
 

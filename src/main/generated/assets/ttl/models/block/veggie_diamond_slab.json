@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "ttl:block/veggie_diamond_block",
+    "side": "ttl:block/veggie_diamond_block",
+    "top": "ttl:block/veggie_diamond_block"
+  }
+}

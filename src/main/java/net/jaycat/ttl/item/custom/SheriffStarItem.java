@@ -2,6 +2,7 @@ package net.jaycat.ttl.item.custom;
 
 import net.jaycat.ttl.block.ModBlocks;
 import net.jaycat.ttl.TryingToLearn;
+import net.jaycat.ttl.component.ModDataComponentTypes;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.EquipmentSlot;
@@ -54,6 +55,10 @@ private static final Map<Block, Block> SHERIFF_STAR_MAP =
 
 
        return ActionResult.PASS;
+
+
+
+
 
     }
 }

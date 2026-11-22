@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "ttl:block/veggie_diamond_pressure_plate"
+    },
+    "powered=true": {
+      "model": "ttl:block/veggie_diamond_pressure_plate_down"
+    }
+  }
+}

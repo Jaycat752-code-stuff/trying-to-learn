@@ -31,6 +31,23 @@
   "block.ttl.coffee_maker_block": "Coffee Maker Block",
   "block.ttl.empty_coffee_maker_block": "Empty Coffee Maker Block",
 
+  "block.ttl.veggie_diamond_door": "Veggie Diamond Door",
+  "block.ttl.veggie_diamond_trapdoor": "Veggie Diamond Trapdoor",
+
+  "block.ttl.veggie_diamond_stairs": "Veggie Diamond Stairs",
+  "block.ttl.veggie_diamond_slab": "Veggie Diamond Slab",
+
+  "block.ttl.veggie_diamond_fence": "Veggie Diamond Fence",
+  "block.ttl.veggie_diamond_fence_gate": "Veggie Diamond Fence Gate",
+  "block.ttl.veggie_diamond_wall": "Veggie Diamond wall",
+
+  "block.ttl.veggie_diamond_button": "Veggie Diamond Button",
+  "block.ttl.veggie_diamond_presure_plate": "Veggie Diamond Pressure Plate",
+
+  "block.ttl.pizza": "Pizza",
+
+  "block.ttl.veggie_diamond_lamp": "Veggie Diamond Lamp",
+
   "itemgroup.ttl.veggietales_adventures_items": "VeggieTales Adventures Items",
   "itemgroup.ttl.veggietales_adventures_blocks": "VeggieTales Adventures Blocks",
 

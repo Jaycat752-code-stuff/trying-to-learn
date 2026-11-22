@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "V": {
+      "item": "ttl:veggie_diamond_block"
+    }
+  },
+  "pattern": [
+    "VVV"
+  ],
+  "result": {
+    "count": 6,
+    "id": "ttl:veggie_diamond_slab"
+  }
+}

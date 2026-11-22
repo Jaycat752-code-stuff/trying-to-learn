@@ -2,6 +2,7 @@ package net.jaycat.ttl;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.jaycat.ttl.block.ModBlocks;
+import net.jaycat.ttl.component.ModDataComponentTypes;
 import net.jaycat.ttl.item.ModItemGroups;
 import net.jaycat.ttl.item.ModItems;
 import org.slf4j.Logger;
@@ -19,6 +20,8 @@ public class TryingToLearn implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+
+		ModDataComponentTypes.registerDataComponentTypes();
 
 		FuelRegistry.INSTANCE.add(ModItems.BURNING_HOT_VEGGIE_DIAMOND, 2400 );
 	}

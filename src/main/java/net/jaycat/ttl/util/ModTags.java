@@ -11,6 +11,9 @@ import net.minecraft.util.Identifier;
 public class ModTags {
     public static class Blocks {
 
+        public static final TagKey<Block> NEEDS_VEGGIE_DIAMOND_TOOL = createTag("needs_veggie_diamond_tool");
+        public static final TagKey<Block> INCORRECT_FOR_VEGGIE_DIAMOND_TOOL = createTag("incorrect_for_veggie_diamond_tool");
+
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(TryingToLearn.MOD_ID, name));
 

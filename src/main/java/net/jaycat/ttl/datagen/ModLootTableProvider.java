@@ -33,6 +33,21 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.Counter_Top_Block);
         addDrop(ModBlocks.Wall_Block);
 
+        addDrop(ModBlocks.Veggie_DIAMOND_STAIRS);
+        addDrop(ModBlocks.Veggie_DIAMOND_SLAB, slabDrops(ModBlocks.Veggie_DIAMOND_SLAB));
+
+
+        addDrop(ModBlocks.Veggie_DIAMOND_BUTTON);
+        addDrop(ModBlocks.Veggie_DIAMOND_PRESSURE_PLATE);
+
+
+        addDrop(ModBlocks.Veggie_DIAMOND_FENCE);
+        addDrop(ModBlocks.Veggie_DIAMOND_FENCE_GATE);
+        addDrop(ModBlocks.Veggie_DIAMOND_WALL);
+
+        addDrop(ModBlocks.Veggie_DIAMOND_TRAPDOOR);
+        addDrop(ModBlocks.Veggie_DIAMOND_DOOR, doorDrops (ModBlocks.Veggie_DIAMOND_DOOR));
+
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

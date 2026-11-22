@@ -26,6 +26,12 @@ entries.add(ModItems.COFFEE_BEANS);
 entries.add(ModItems.Hairbrush);
 entries.add(ModItems.PIZZA_SLICE);
 entries.add(ModItems.BURNING_HOT_VEGGIE_DIAMOND);
+
+entries.add(ModItems.VEGGIE_DIAMOND_PICKAXE);
+entries.add(ModItems.VEGGIE_DIAMOND_AXE);
+entries.add(ModItems.VEGGIE_DIAMOND_SWORD);
+entries.add(ModItems.VEGGIE_DIAMOND_SHOVEL);
+entries.add(ModItems.VEGGIE_DIAMOND_HOE);
                 }).build());
 // Adds a creative mod tab and puts 2 items in it
 
@@ -47,7 +53,7 @@ entries.add(ModItems.BURNING_HOT_VEGGIE_DIAMOND);
                         entries.add(ModBlocks.Veggie_DIAMOND_SLAB);
 
                         entries.add(ModBlocks.Veggie_DIAMOND_BUTTON);
-                        entries.add(ModBlocks.Veggie_DIAMOND_PESURE_PLATE);
+                        entries.add(ModBlocks.Veggie_DIAMOND_PRESSURE_PLATE);
 
                         entries.add(ModBlocks.Veggie_DIAMOND_FENCE);
                         entries.add(ModBlocks.Veggie_DIAMOND_FENCE_GATE);
@@ -55,6 +61,10 @@ entries.add(ModItems.BURNING_HOT_VEGGIE_DIAMOND);
 
                         entries.add(ModBlocks.Veggie_DIAMOND_DOOR);
                         entries.add(ModBlocks.Veggie_DIAMOND_TRAPDOOR);
+
+                        entries.add(ModBlocks.PIZZA);
+
+                        entries.add(ModBlocks.VEGGIE_DIAMOND_LAMP);
 
                     }).build());
     // Adds another creative mod tab and puts 2 items in it
