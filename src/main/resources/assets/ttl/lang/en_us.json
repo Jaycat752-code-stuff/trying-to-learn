@@ -12,6 +12,13 @@
   "item.ttl.pizza_slice": "Pizza Slice",
   "item.ttl.burning_hot_veggie_diamond": "Burning Hot Veggie Diamond",
 
+  "item.ttl.veggie_diamond_sword": "Veggie Diamond Sword",
+  "item.ttl.veggie_diamond_axe": "Veggie Diamond Axe",
+  "item.ttl.veggie_diamond_pickaxe": "Veggie Diamond Pickaxe",
+  "item.ttl.veggie_diamond_shovel": "Veggie Diamond Shovel",
+  "item.ttl.veggie_diamond_hoe": "Veggie Diamond Hoe",
+
+
   "tooltip.ttl.coffee_maker_block.tooltip": "Brew your own §6COFFEE§r with this block!",
 
   "tooltip.ttl.hairbrush.shift_down": "Larry's Hairbrush will make any hostile mob",
